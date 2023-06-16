@@ -1,27 +1,66 @@
-# TesteAngular
+# Simulador de Empréstimo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+Este projeto é um simulador de empréstimo. Permite ao usuário calcular o valor total com juros de 5%, o valor das parcelas e a quantidade de parcelas desejadas.
 
-## Development server
+## Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular
+- Scss
+## Como Utilizar
 
-## Code scaffolding
+1. Acesse o aplicativo implantado em [https://teste-angular-sigma.vercel.app](https://teste-angular-sigma.vercel.app).
+2. Digite seu nome.
+3. Digite o valor que deseja solicitar o empréstimo.
+4. Digite a quantidade de parcelas.
+5. Confirme os dados para gerar o valor calculado com 5% de juros e valor das parcelas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Funcionalidades
 
-## Build
+- Cálculo automático do valor total com juros de 5%.
+- Exibição do valor das parcelas e quantidade de parcelas.
+- Confirmação do empréstimo.
+- Carregamento durante a confirmação do empréstimo.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Desenvolvimento
 
-## Running unit tests
+Se você deseja executar o projeto localmente e realizar alterações, siga as etapas abaixo:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone este repositório em sua máquina local usando o seguinte comando:
 
-## Running end-to-end tests
+```shell
+git clone https://github.com/seu-usuario/Teste-Angular.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Acesse o diretório do projeto:
 
-## Further help
+```shell
+cd Teste-Angular
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Instale as dependências do projeto:
+
+```shell
+npm install
+```
+
+4. Inicie o servidor de desenvolvimento:
+
+```shell
+ng serve
+```
+
+5. Abra seu navegador e acesse http://localhost:4200 para visualizar o aplicativo em execução.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você encontrar algum problema no aplicativo ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue.
+
+## Autor
+
+João Paulo
+
+## Contato
+
+Caso tenha alguma dúvida ou sugestão sobre este projeto, sinta-se à vontade para entrar em contato através do seguinte email: jpgoncalves021@gmail.com.
+
+Lembre-se de substituir "seu-usuario" no comando de clonagem do repositório e adicionar informações de contato corretas no final do README.
