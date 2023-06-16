@@ -1,0 +1,19 @@
+<form (submit)="handleSubmit($event)">
+    <h1>Simule seu empréstimo!</h1>
+    <label>
+    Nome:
+    <input type="text" name="nome" [(ngModel)]="nome" placeholder="Digite seu nome" />
+  </label>
+
+    <label>
+    Valor:
+    <input type="number" name="valor" [(ngModel)]="valor" placeholder="Insira o valor" />
+  </label>
+
+    <label>
+    Qtd. parcelas:
+    <input type="number" name="parcelas" [(ngModel)]="parcelas" placeholder="Qtd. parcelas" />
+  </label>
+
+    <button type="submit">Simular Empréstimo</button>
+</form>
